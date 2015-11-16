@@ -88,5 +88,4 @@ Empresa.deleteUser = function(dataPosteada, response)
 		response(null, false);
 }
 
-
 module.exports = Empresa;
