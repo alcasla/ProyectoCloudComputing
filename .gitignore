@@ -5,7 +5,7 @@ node_modules
 doc
 
 # Archivo de base de datos
-calificaciones.db
+usuarios.db
 
 # Logs y copias de seguridad
 *.log

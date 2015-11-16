@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+
+    <body>
+        <form action="/newUser" method="post">
+            <h3>Nuevo usuario</h3>
+            <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td><textarea name="nombre" rows="1" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Apellidos</td>
+                    <td><textarea name="apellidos" rows="1" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><textarea name="email" rows="1" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Contraseña</td>
+                    <td><textarea name="contraseña" rows="1" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Registrarse" /></td>
+                </tr>
+            </table>
+        </form>
+        <form action="/deleteUser" method="post">
+            <h3>Baja de usuario</h3>
+            <table>
+                <tr>
+                    <td>Nombre</td>
+                    <td><textarea name="nombre" rows="1" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Contraseña</td>
+                    <td><textarea name="contraseña" rows="1" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Dar de baja" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

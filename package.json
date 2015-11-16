@@ -1,0 +1,33 @@
+{
+  "name": "ProyectoCloudComputing",
+  "version": "0.1.0",
+  "description": "Desarrollo continuo durante la asignatura el submódulo para registro de usuarios del proyecto Red Social",
+  "main": "index.js",
+  "dependencies": {
+    "sqlite3": "^3.1.0"
+  },
+  "devDependencies": {
+    "docco": "^0.7.0",
+    "grunt": "^0.4.5",
+    "grunt-docco": "^0.4.0",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "^1.0.0"
+  },
+  "scripts": {
+    "test": "mocha test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alcasla/ProyectoCloudComputing.git"
+  },
+  "keywords": [
+    "node.js + DB"
+  ],
+  "author": "Alberto Castillo Lamas",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/alcasla/CalificaEmpresas/issues"
+  },
+  "homepage": "https://github.com/alcasla/ProyectoCloudComputing#readme"
+}
