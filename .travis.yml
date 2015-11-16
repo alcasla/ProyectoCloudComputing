@@ -1,0 +1,7 @@
+# language setting
+language: node_js
+
+# version numbers, testing against some versions of node
+node_js:
+  - "0.12"
+  - "0.10.40"
