@@ -1,5 +1,7 @@
 # ProyectoCloudComputing
 
+[![Build Status](https://travis-ci.org/alcasla/ProyectoCloudComputing.svg?branch=master)](https://travis-ci.org/alcasla/ProyectoCloudComputing)
+
 Proyecto desarrollado para la asignatura Cloud Computin impartida en el Master de Ingeniería Informática 
 perteneciente a la Universidad de Granada.
 
