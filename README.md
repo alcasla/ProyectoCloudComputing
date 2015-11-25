@@ -1,16 +1,17 @@
 # ProyectoCloudComputing
 ## Submódulo de Red Social  << Gestión de usuarios >>
 
+[![Build Status](https://travis-ci.org/alcasla/ProyectoCloudComputing.svg?branch=master)](https://travis-ci.org/alcasla/ProyectoCloudComputing)
+
 Desarrollado por el alumno [Alberto Castillo Lamas](https://www.linkedin.com/in/alberto-castillo-lamas-25aa3ab2).
 Mi [perfil](https://github.com/alcasla) de Github.
-
-[![Build Status](https://travis-ci.org/alcasla/ProyectoCloudComputing.svg?branch=master)](https://travis-ci.org/alcasla/ProyectoCloudComputing)
 
 Proyecto desarrollado para la asignatura Cloud Computin impartida por el profesor [Juan Julián Merelo Guervós](https://github.com/JJ) en el Master de Ingeniería Informática perteneciente a la Universidad de Granada.
 
 
 ### Descripción
 Este submódulo como parte perteneciente al proyecto completo de la Red Social está destinado a la implementación de un sistema para la gestión de usuarios, formando parte de un sistema integrado por más módulos, este será tambien la puerta de entrada de los usuarios al sistema completo donde les dará acceso a más funcionalidades implementadas por los otros submódulos del sistema.
+
 A los usuarios se les proporcionará funcionalidad para registrarse como usuarios del sistema, editar, y borrar sus datos que hayan sido almacenados previamente.
 Tambien se llevará a cabo una presentación de los datos a los usuarios para facilitar las funcionalidades anteriormente mencionadas.
 
