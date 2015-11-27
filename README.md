@@ -32,7 +32,10 @@ Ya se ha comentado, en parte, las distintas subpartes de las que se compondrá e
 * Almacenamiento y gestión de la información mediante una base de datos **SQLite**, sistema de gestión de base de datos relacionales. Al ser uno de los sitemas más usados cuenta con una gran cantidad de información y comunidad, también con una [documentación](https://www.sqlite.org/docs.html) amplia en su [Home Page](https://www.sqlite.org/).
 * Apartado web. Front-end mediante formularios en **HTML** para la entrada y salida de información relativa a los usuarios.
 * Parte intermediaria entre el front-end y la base de datos. Capa intermedia compuesta por las funciones implementadas en **Node.js**, reciviendo la infromación del una parte para procesarla y enviarla a la otra parte en un flujo de datos bidireccional.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9bbd7c828f79fd50e34c85f6e2ba5784e47c2cab
 
 Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, basado en el motor V8 de JavaScript y está diseñado para correr en un navegador y ejecutar el código de forma eficaz. Ejecutando tareas de manera asíncrona y enfocado a eventos. Este será el encargado de compactar y enlazar todas las partes de mi aplicación, por lo que se requiere su instalación.
 La [instalación](https://nodejs.org/en/download/package-manager/) de Node.js puede hacerse mediante [NPM](https://www.npmjs.com/) o Node Package Manager, manejador de paquetes de Node.
@@ -53,16 +56,7 @@ Para la organización del proyecto se ha generado una serie de hitos que se impl
 
 La lista de hitos se describe a continuación:
 
-  * **Definición inicial del proyecto**: descripción del proyecto en su fase inicial de desarrollo.
-  * **Documentación**: descripción, incrementalmente, de las herramientas/tecnologías usadas, su instalación, y su proceso de integración en el proyecto.
-  * **Documentación del código**: configuración de las herramientas Grunt y Docco para la generación automática del código.
-  * **Instalación de herramientas**: instalación y configuración de herramientas como Node, Grunt, Docco, Travis, PaaS, SQLite, Mocha.
-  * **Gestión de la BD**: implementación de los procesos io y definición de la base de datos.
-  * **Implementación Front-end**: desarrollo de una interfaz básica de usuario.
-  * **Implementación Back-end**: desarrollo de funcionalidad para la gestión de usuarios.
-  * **Definición del entorno de pruebas**: implementación de pruebas unitarias mediante Mocha.
-  * **Integración continua**: configuración del repositorio para la sincronización automática con TravesCI.
-  * **Despliegue en el PaaS**: configuración y desarrollo del despliegue en OpenShift
+
 
 
 ### Relación con la asignatura
