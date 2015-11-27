@@ -55,7 +55,6 @@ La lista de hitos se describe a continuación:
 
   * **Definición inicial del proyecto**: descripción del proyecto en su fase inicial de desarrollo.
   * **Documentación**: descripción, incrementalmente, de las herramientas/tecnologías usadas, su instalación, y su proceso de integración en el proyecto.
-  * **Documentación del código**: configuración de las herramientas Grunt y Docco para la generación automática del código.
   * **Instalación de herramientas**: instalación y configuración de herramientas como Node, Grunt, Docco, Travis, PaaS, SQLite, Mocha, ...
   * **Gestión de la BD**: implementación de los procesos io y definición de la base de datos.
   * **Implementación Front-end**: desarrollo de una interfaz básica de usuario mediante formularios.
@@ -63,6 +62,8 @@ La lista de hitos se describe a continuación:
   * **Definición del entorno de pruebas**: configuración del entorno e implementación de pruebas unitarias.
   * **Integración continua**: configuración del repositorio para la sincronización automática.
   * **Configuración y despliegue en PaaS**: configuración y desarrollo del despliegue en un PaaS.
+
+  [ProyectoCloudComputing hitos](https://github.com/alcasla/ProyectoCloudComputing/milestones)
 
 
 ### Relación con la asignatura
