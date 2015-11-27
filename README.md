@@ -1,5 +1,5 @@
 # ProyectoCloudComputing
-## Submódulo de Red Social  << Gestión de usuarios >>
+## Submódulo de Red Social  ___ Gestión de usuarios ___
 
 [![Build Status](https://travis-ci.org/alcasla/ProyectoCloudComputing.svg?branch=master)](https://travis-ci.org/alcasla/ProyectoCloudComputing)
 
@@ -30,6 +30,7 @@ Ya se ha comentado, en parte, las distintas subpartes de las que se compondrá e
 * Almacenamiento y gestión de la información mediante una base de datos SQLite, sistema de gestión de base de datos relacionales. Al ser uno de los sitemas más usados cuenta con una gran cantidad de información y comunidad, también con una [documentación](https://www.sqlite.org/docs.html) amplia en su [Home Page](https://www.sqlite.org/).
 * Apartado web. Front-end mediante formularios HTML para la entrada y salida de información relativa a los usuarios.
 * Parte intermediaria entre el front-end y la base de datos. Capa intermedia compuesta por las funciones implementadas en Node.js, reciviendo la infromación del una parte para procesarla y enviarla a la otra parte en un flujo de datos bidireccional.
+
 
 Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, basado en el motor V8 de JavaScript y está diseñado para correr en un navegador y ejecutar el código de forma eficaz. Ejecutando tareas de manera asíncrona y enfocado a eventos. Este será el encargado de compactar y enlazar todas las partes de mi aplicación, por lo que se requiere su instalación.
 La [instalación](https://nodejs.org/en/download/package-manager/) de Node.js puede hacerse mediante [NPM](https://www.npmjs.com/) o Node Package Manager, manejador de paquetes de Node.
