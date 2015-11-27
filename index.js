@@ -1,8 +1,11 @@
 //Requerimientos para index
-var server = require("./server.js");
-var router = require("./router.js");
-var requestHandlers = require("./requestHandlers");
-var DBcreator = require("./DBcreator.js");
+var path = require('path');
+global.appRoot = path.resolve(__dirname);
+
+var server = require(appRoot + '/lib/server');
+var router = require(appRoot + "/lib/router.js");
+var requestHandlers = require(appRoot + "/lib/requestHandlers");
+var DBcreator = require(appRoot + "/lib/DBcreator.js");
 
 //Obtenemos servicio de sqlite3 y creamos la base de datos vacía
 var sqlite3 = require('sqlite3').verbose();

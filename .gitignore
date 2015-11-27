@@ -1,8 +1,5 @@
-# Directorio instalación módulos
+# Directorio de dependencias
 node_modules
-
-# Directorio con documentación
-doc
 
 # Archivo de base de datos
 usuarios.db

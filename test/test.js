@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require("assert");
-var requestHandlers = require("./requestHandlers");
+var requestHandlers = require("../lib/requestHandlers");
 
 
 describe('Tests', function()

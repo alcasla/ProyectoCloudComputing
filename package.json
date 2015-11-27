@@ -10,8 +10,12 @@
     "mocha": "^2.3.3",
     "mocha-lcov-reporter": "^1.0.0"
   },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha test.js",
+    "test": "mocha test",
     "start": "node index.js"
   },
   "repository": {
