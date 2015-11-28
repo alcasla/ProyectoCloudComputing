@@ -1,9 +1,8 @@
 #Instrucciones de instalación para el proyecto
 
-Para la obtención de este proyecto es libre la forma de su obtención, ya sea mediante el cliente de git por la consola de comando o descargando el paquete directamente comprimido desde el repositorio.
-Empezamos partiendo desde el punto en que tienes el código en tu máquina, por lo que a continuación se describe detaladamente el proceso que se ha de siguir para la instalación y ejecución del [submódulo](https://github.com/alcasla/ProyectoCloudComputing/blob/master/README.md) del proyecto Red Social encargado de la gestión de los usuarios.
+Empezamos partiendo desde el punto en que tienes el código en tu máquina, por lo que a continuación se describe detalladamente el proceso que se ha de seguir para la instalación y ejecución del [submódulo](https://github.com/alcasla/ProyectoCloudComputing/blob/master/README.md) del proyecto Red Social encargado de la gestión de los usuarios.
 
-En concreto se describen los pasos para su instalación en sistemas operativos basados en Linux.
+En concreto se describen los pasos para su instalación en sistemas operativos basados en Linux, como en mi caso Ubuntu en su versión 14.04.
 
 **Nota**:En algunos casos algunos comandos necesiten los permisos de administrador, en ese caso usar delante de ellos "sudo" e introducir el password de vuestro usuario.
 
@@ -21,7 +20,7 @@ Ya está instalado Node.js pero en la mayoría de casos es necesaria la utilizac
 
 `sudo apt-get install npm`
 
-Una vez instalado las herramientas que vamos a necesitar, instalar alguna/as versiones de Node.js para ejecutar el programa, en mi caso te aconsejo utilizar versiones estables para evitar problemas. Para el ejemplo utilizaré la versión de Node con la que [ha sido implementado](https://travis-ci.org/alcasla/ProyectoCloudComputing) el código o testeado.
+Una vez instalado las herramientas que vamos a necesitar, instalar alguna/as versiones de Node.js para ejecutar el programa, te aconsejo utilizar versiones estables para evitar problemas. Para el ejemplo utilizaré la [versión](https://travis-ci.org/alcasla/ProyectoCloudComputing) de Node con la que ha sido implementado el código o testeado.
 
 Podemos ver que versiones hay disponibles para su instlación, y a continuación instalamos una. En caso de que sea necesario también se pueden instalar varias y usar una u otra utilizando el tercer comando de los que aparecen a continuación:
 
