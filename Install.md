@@ -38,6 +38,10 @@ Esta instalación también la vamos a hacer mediante el gestor de paquetes de No
 
 `npm install sqlite3`
 
+También instalaremos dependencias con
+
+`npm install`
+
 Con esto ya están todas las herramientas que necesitamos.
 
 
@@ -45,4 +49,4 @@ Ahora solo tenemos que ejecutar el proyecto mediante el comando
 
 `node index.js`
 
-y tras ello se ejecuta el servidor que queda escuchando en el puerto 8888, como indica en la consola, para acceder a las funcionalidades implementadas podemos utilizar el navegador y acceder al [localhost](http://localhost:8888/) en el puerto indicado.
+y tras ello se ejecuta el servidor que queda escuchando en el puerto 8888, como indica en la consola, para acceder a las funcionalidades implementadas podemos utilizar el navegador y acceder al [localhost](http://localhost:5000/) en el puerto indicado.

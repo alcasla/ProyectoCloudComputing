@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/social-network.png">
+    </a>
+    <h1>User accounts manager</h1>
+    <p>Aplicación para la gestión de usuarios perteneciente al submódulo que forma parte del proyecto Red Social.</p>
+    <a type="button" class="btn btn-lg btn-default" href="https://github.com/alcasla/ProyectoCloudComputing"> Repositorio del proyecto</a>
+    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/alcasla"> Desarrollador</a>
+    <form action="/newUser" method="post">
+        <h3>Nuevo usuario</h3>
+        <table align="center">
+            <tr>
+                <td>Nombre</td>
+                <td><textarea name="nombre" rows="1" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td>Apellidos</td>
+                <td><textarea name="apellidos" rows="1" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><textarea name="email" rows="1" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td>Contraseña</td>
+                <td><textarea name="contraseña" rows="1" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="btn btn-lg btn-default" value="Registrar usuario"/></td>
+            </tr>
+        </table>
+    </form>
+    <form action="/deleteUser" method="post">
+        <h3>Baja de usuario</h3>
+        <table align="center">
+            <tr>
+                <td>Nombre</td>
+                <td><textarea name="nombre" rows="1" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td>Contraseña</td>
+                <td><textarea name="contraseña" rows="1" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="btn btn-lg btn-default" value="Eliminar usuario" /></td>
+            </tr>
+        </table>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

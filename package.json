@@ -1,37 +1,40 @@
 {
   "name": "ProyectoCloudComputing",
+  "author": "Alberto Castillo Lamas",
   "version": "0.1.0",
-  "description": "Desarrollo continuo durante la asignatura el submódulo para registro de usuarios del proyecto Red Social",
+  "description": "Registro de usuarios RED SOCIAL",
+  "homepage": "https://github.com/alcasla/ProyectoCloudComputing#readme",
   "main": "index.js",
-  "dependencies": {
-    "sqlite3": "^3.1.0"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
-  "devDependencies": {
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "body-parser": "1.14.1",
+    "express": "4.13.3",
+    "sqlite3": "^3.1.0",
     "docco": "^0.7.0",
     "grunt": "^0.4.5",
     "grunt-docco": "^0.4.0",
     "mocha": "^2.3.3",
     "mocha-lcov-reporter": "^1.0.0"
   },
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha test",
-    "start": "node index.js"
+  "engines": {
+    "node": "0.12.7"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alcasla/ProyectoCloudComputing.git"
   },
   "keywords": [
-    "node.js + DB"
+    "node",
+    "heroku",
+    "express"
   ],
-  "author": "Alberto Castillo Lamas",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/alcasla/CalificaEmpresas/issues"
-  },
-  "homepage": "https://github.com/alcasla/ProyectoCloudComputing#readme"
+  "license": "GPL-3.0"
 }

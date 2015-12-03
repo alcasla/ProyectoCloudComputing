@@ -1,23 +1,39 @@
 //Requerimientos para index
 var path = require('path');
 global.appRoot = path.resolve(__dirname);
+var express = require('express');
+var bodyParser = require('body-parser');
+var requestHandlers = require(appRoot + '/lib/requestHandlers');
+var app = express();
 
-var server = require(appRoot + '/lib/server');
-var router = require(appRoot + "/lib/router.js");
-var requestHandlers = require(appRoot + "/lib/requestHandlers");
-var DBcreator = require(appRoot + "/lib/DBcreator.js");
+// Dirección IP y puerto de escucha de peticiones
+app.set('ip', process.env.IP || '0.0.0.0');
+app.set('port', (process.env.PORT || 5000));
 
-//Obtenemos servicio de sqlite3 y creamos la base de datos vacía
-var sqlite3 = require('sqlite3').verbose();
-var db = new sqlite3.Database('usuarios.db');
+// Parseo
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+  extended: false
+}));
 
-//Registro de manejadores
-var handle = {}
-handle["/"] = requestHandlers.iniciar;
-handle["/newUser"] = requestHandlers.newUser;
-handle["/deleteUser"] = requestHandlers.deleteUser;
+app.use(express.static(__dirname + '/public'));
 
-//Inicializamos DB
-DBcreator.init(db);
-//Lanzamos servidor a escuchar
-server.iniciar(router.route, handle);
+// views is directory for all template files
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+
+
+
+//Funcionalidades
+app.get('/', requestHandlers.index);
+app.post('/newUser', requestHandlers.newUser);
+app.post('/deleteUser', requestHandlers.deleteUser);
+
+
+
+app.listen(app.get('port'), app.get('ip'), function() {
+  console.log('Running on port ' + app.get('port') + ' listen adress demand from ' + app.get('ip'));
+});
+
+
+module.exports = app;
