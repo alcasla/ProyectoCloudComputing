@@ -1,9 +1,15 @@
 # Directorio de dependencias
 node_modules
 
+# Directorios de vistas
+public
+views
+
 # Archivo de base de datos
 usuarios.db
 
 # Logs y copias de seguridad
 *.log
 *~
+
+app.json
