@@ -13,10 +13,9 @@ Proyecto desarrollado para la asignatura Cloud Computin impartida por el profeso
 ### Documentación
 
 Información disponible acerca del proyecto, durante todo el proceso de desarrollo y su implementación.
-
-    * **[Descripción](https://github.com/alcasla/ProyectoCloudComputing/docs/Documentación/Descripción.md)**: Explicación breve e inicial, motivación de uso de las herramientas, procedimiento y relación con la asignatura.
-    * **[Despliegue](https://github.com/alcasla/ProyectoCloudComputing/docs/Documentación/Despliegue.md)**: Descripción del proceso llevado a cabo, para el despliegue y su automatización.
-    * **[Hitos](https://github.com/alcasla/ProyectoCloudComputing/docs/Documentación/Hitos.md)**: Listado de objetivos a desarrollar durante el proyecto.
+* **[Descripción](https://github.com/alcasla/ProyectoCloudComputing/blob/master/docs/Documentaci%C3%B3n/Descripci%C3%B3n.md)**: Explicación breve e inicial, motivación de uso de las herramientas, procedimiento y relación con la asignatura.
+* **[Despliegue](https://github.com/alcasla/ProyectoCloudComputing/blob/master/docs/Documentaci%C3%B3n/Despliegue.md)**: Descripción del proceso llevado a cabo, para el despliegue y su automatización.
+* **[Hitos](https://github.com/alcasla/ProyectoCloudComputing/blob/master/docs/Documentaci%C3%B3n/Hitos.md)**: Listado de objetivos a desarrollar durante el proyecto.
 
 
 ### Instalación
