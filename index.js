@@ -33,6 +33,7 @@ app.post('/deleteUser', requestHandlers.deleteUser);
 
 app.listen(app.get('port'), app.get('ip'), function() {
   console.log('Running on port ' + app.get('port') + ' listen adress demand from ' + app.get('ip'));
+  console.log('http://localhost:'+app.get('port'));
 });
 
 
